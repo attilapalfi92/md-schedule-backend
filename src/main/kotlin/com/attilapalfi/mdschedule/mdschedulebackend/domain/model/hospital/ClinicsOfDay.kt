@@ -1,9 +1,9 @@
 package com.attilapalfi.mdschedule.mdschedulebackend.domain.model.hospital
 
 import com.attilapalfi.mdschedule.mdschedulebackend.domain.model.hospital.clinics.Clinic
-import com.attilapalfi.mdschedule.mdschedulebackend.domain.model.schedule.ScheduleDay
+import com.attilapalfi.mdschedule.mdschedulebackend.domain.model.schedule.Day
 
 data class ClinicsOfDay(
-    val scheduleDay: ScheduleDay,
+    val day: Day,
     val clinics: List<Clinic>
 )
