@@ -1,4 +1,4 @@
-package com.attilapalfi.mdschedule.mdschedulebackend
+package com.attilapalfi.mdschedule.mdschedulebackend.application
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

@@ -1,3 +1,7 @@
+**/local.properties
+**/local.yaml
+**/local-properties.yaml
+
 HELP.md
 .gradle
 build/
