@@ -4,11 +4,11 @@ import com.attilapalfi.mdschedule.mdschedulebackend.domain.model.schedule.Schedu
 import java.time.LocalDate
 import java.time.Month
 import java.time.Year
+import java.time.YearMonth
 
-data class StaffSchedule(
+data class ScheduleOfStaffMember(
     val staffMember: StaffMember,
-    val month: Month,
-    val year: Year,
+    val yearMonth: YearMonth,
     val schedule: List<ScheduleDay>,
     val daysOff: Set<LocalDate>
 )
